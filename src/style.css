@@ -2,21 +2,34 @@
   --main-colour: #f9f9f9;
   --header-colour: #4d92ce;
   --main-font: "Roboto", sans-serif;
-  -box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.main-page {
-  background-color: var(--main-colour);
+
+section {
+  background-size: cover;
+  background-position: center center;
   text-align: center;
 }
-.about-me {
+#section1 {
   background-color: var(--main-colour);
-  text-align: center;
 }
+#section2 {
+  background-color: #26243b;
+  color: white;
+}
+#section3 {
+  background-color: #efded6;
+}
+
 h1 {
   font-size: 80px;
   font-weight: bold;
   letter-spacing: 5px;
   font-family: Helvetica;
+}
+.about {
+  padding: 40px 0px 0px 0px;
+  text-align: center;
 }
 .text-stroke {
   -webkit-text-stroke-width: 2px;
@@ -46,6 +59,10 @@ h1 {
   font-size: 36px;
   font-family: var(--main-font);
 }
+p {
+  font-size: 20px;
+  font-family: var(--main-font);
+}
 h2 {
   font-size: 24px;
   font-family: var(--main-font);
@@ -56,6 +73,7 @@ h2 {
   text-transform: capitalize;
   border-radius: 0;
   box-shadow: var(--box-shadow);
+  margin: 60px auto;
 }
 .btn:hover {
   color: var(--header-colour);
