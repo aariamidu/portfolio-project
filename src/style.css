@@ -4,7 +4,10 @@
   --main-font: "Roboto", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body {
+  background-color: var(--main-colour);
+  padding-top: 90px;
+}
 section {
   background-size: cover;
   background-position: center center;
@@ -12,12 +15,12 @@ section {
 }
 #section1 {
   background-color: var(--main-colour);
+  padding-bottom: 0px;
 }
 #section2 {
-  background-color: #26243b;
-  color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color: #e7e5fd;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 #section3 {
   background-color: #efded6;
@@ -29,6 +32,7 @@ h1 {
   letter-spacing: 5px;
   font-family: Helvetica;
 }
+
 .about {
   padding: 40px 0px 0px 0px;
   text-align: center;
