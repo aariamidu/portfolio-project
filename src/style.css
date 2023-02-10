@@ -1,11 +1,19 @@
+:root {
+  --main-colour: #f9f9f9;
+  --header-colour: #4d92ce;
+  --main-font: "Roboto", sans-serif;
+  -box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
 .main-page {
-  background-color: #f9f9f9;
+  background-color: var(--main-colour);
   text-align: center;
 }
-
+.about-me {
+  background-color: var(--main-colour);
+  text-align: center;
+}
 h1 {
   font-size: 80px;
-
   font-weight: bold;
   letter-spacing: 5px;
   font-family: Helvetica;
@@ -16,14 +24,39 @@ h1 {
   -webkit-text-stroke-color: #111827;
   -moz-text-stroke-color: #111827;
   color: transparent;
+  text-shadow: 5px 2px 0px var(--header-colour);
 }
-text-shadow {
-  text-shadow: 4px 4px rgb(195, 195, 195);
+
+.container-fluid {
+  margin: 0px 30px 0px 30px;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
 }
+.nav-item {
+  font-family: var(--main-font);
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: var(--header-colour);
+  text-decoration: underline;
+}
+
 .main-page p {
   font-size: 36px;
+  font-family: var(--main-font);
 }
 h2 {
   font-size: 24px;
-  opacity: 0.7;
+  font-family: var(--main-font);
+}
+.btn {
+  font-family: var(--main-font);
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 0;
+  box-shadow: var(--box-shadow);
+}
+.btn:hover {
+  color: var(--header-colour);
 }

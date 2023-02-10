@@ -12,8 +12,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
     <link href="src/style.css" rel="stylesheet" />
@@ -25,9 +27,14 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a
+          class="navbar-brand border border-dark p-3 mt-2"
+          href="/"
+          title="Aarifah Amidu's Homepage"
+          >AA
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,35 +49,51 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="main-page">
-      <p class="p-3">I am</p>
-      <div class="container">
-        <img
-          src="images/logo.png"
-          class="img-fluid"
-          height="450px"
-          width="450px"
-        />
+    <section id="section1">
+      <div class="main-page">
+        <p>I am</p>
+        <div class="container">
+          <img
+            src="images/logo.png"
+            class="img-fluid"
+            height="420px"
+            width="420px"
+          />
+        </div>
+
+        <h1 class="text-stroke">Aarifah Amidu</h1>
+        <h2>
+          Front-End/React Developer,
+          <br />
+          Based in London
+        </h2>
+        <a href="" class="btn border border-dark p-2 mt-2">Lets Connect!</a>
       </div>
-      <h1 class="text-left text-shadow text-stroke welcome">Aarifah Amidu</h1>
-      <h2>
-        Front-End/React Developer,
-        <br />
-        Based in London
-      </h2>
-      <a href="" class="btn btn-primary">Lets Connect!</a>
-    </div>
+    </section>
+    <section id="section2">
+      <div class="about-me">
+        <h1 class="text-stroke">About Me</h1>
+        <h2>
+          Front-End/React Developer,
+          <br />
+          Based in London
+        </h2>
+      </div>
+    </section>
   </body>
 </html>
