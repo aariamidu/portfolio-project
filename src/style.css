@@ -71,9 +71,11 @@ p {
   font-size: 20px;
   font-family: var(--main-font);
 }
-.col-sm-1 {
-  flex: 1;
+.skills {
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .btn {
   font-family: var(--main-font);
   text-decoration: none;
