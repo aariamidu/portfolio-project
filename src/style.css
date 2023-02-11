@@ -1,7 +1,8 @@
 :root {
   --main-colour: #f9f9f9;
-  --header-colour: #4d92ce;
+  --header-colour: #9d9d9d;
   --main-font: "Roboto", sans-serif;
+  --main-title: "Raleway", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
@@ -10,40 +11,37 @@ body {
 }
 section {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   text-align: center;
 }
 #section1 {
   background-color: var(--main-colour);
-  padding-bottom: 0px;
 }
 #section2 {
-  background-color: #e7e5fd;
-  padding-top: 90px;
+  background-color: #f1efff;
   padding-bottom: 90px;
 }
 #section3 {
-  background-color: #efded6;
+  background-color: var(--main-colour);
 }
 
 h1 {
   font-size: 80px;
   font-weight: bold;
   letter-spacing: 5px;
-  font-family: Helvetica;
+  font-family: var(--main-title);
 }
-
-.about {
-  padding: 40px 0px 0px 0px;
+h2 {
+  font-size: 24px;
+  font-family: var(--main-font);
+}
+.second-heading {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: var(--main-title);
   text-align: center;
-}
-.text-stroke {
-  -webkit-text-stroke-width: 2px;
-  -moz-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #111827;
-  -moz-text-stroke-color: #111827;
-  color: transparent;
-  text-shadow: 5px 2px 0px var(--header-colour);
+  padding: 70px 0px 40px 0px;
 }
 
 .container-fluid {
@@ -57,6 +55,7 @@ h1 {
 .nav-item {
   font-family: var(--main-font);
   font-size: 20px;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -64,17 +63,16 @@ h1 {
   text-decoration: underline;
 }
 
-.main-page p {
-  font-size: 36px;
+.main-page {
+  font-size: 24px;
   font-family: var(--main-font);
 }
 p {
   font-size: 20px;
   font-family: var(--main-font);
 }
-h2 {
-  font-size: 24px;
-  font-family: var(--main-font);
+.col-sm-1 {
+  flex: 1;
 }
 .btn {
   font-family: var(--main-font);
