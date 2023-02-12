@@ -75,7 +75,18 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
+.skill {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0px 0px 30px 0px;
+}
+.skill:hover {
+  text-align: center;
 
+  transition: all 1s;
+  transform: scale(1.2);
+}
 .btn {
   font-family: var(--main-font);
   text-decoration: none;
@@ -86,4 +97,15 @@ p {
 }
 .btn:hover {
   color: var(--header-colour);
+}
+
+.container {
+  max-width: 600px;
+}
+.papers {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 10px;
+  margin: 0px 0px 30px 0px;
 }
