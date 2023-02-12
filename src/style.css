@@ -41,7 +41,7 @@ h2 {
   letter-spacing: 5px;
   font-family: var(--main-title);
   text-align: center;
-  padding: 70px 0px 40px 0px;
+  padding: 30px 0px 40px 0px;
 }
 
 .container-fluid {
@@ -70,6 +70,7 @@ h2 {
 p {
   font-size: 20px;
   font-family: var(--main-font);
+  margin: 0px 0px 0px 30px;
 }
 .skills {
   display: flex;
@@ -103,9 +104,5 @@ p {
   max-width: 600px;
 }
 .papers {
-  display: flex;
-  justify-content: space-evenly;
-
-  padding: 10px;
-  margin: 0px 0px 30px 0px;
+  padding: 0px 5px 5px 0px;
 }
