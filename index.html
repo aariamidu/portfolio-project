@@ -16,7 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/1b3daeba52.css"
+      crossorigin="anonymous"
+    />
     <link href="src/style.css" rel="stylesheet" />
     <title>Aarifah Amidu Portfolio</title>
   </head>
@@ -27,7 +31,7 @@
       crossorigin="anonymous"
     ></script>
     <div id="fullpage">
-      <section id="section1">
+      <section class="first-section" id="section1">
         <nav class="navbar navbar-transparent fixed-top navbar-expand-lg">
           <div class="container-fluid">
             <a
@@ -56,10 +60,10 @@
                   <a class="nav-link" href="index.html#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+                  <a class="nav-link" href="index.html#project">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="index.html#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -83,117 +87,232 @@
           Based in London
         </h2>
         <a href="" class="btn border border-dark p-2 mt-2">Lets Connect!</a>
+        <div class="vl2"></div>
       </section>
-
+      <div class="vl"></div>
       <section id="section2">
         <h2 class="mt-2 second-heading" id="about">About Me</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>
+                Hello, my name is Aarifah Amidu, a railway engineer
+                transitioning into the world of tech.
+                <br />
+                <br />
+                Self taught since October 2022.
+                <br />
+                <br />
+                Problem-solving is something that I love doing and tech is full
+                of it! Tech is ever changing, so I will be continuously
+                increasing my knowledge thus adding to what I already know.It
+                gives me an opportunity to work with new innovations and
+                technology as the world continues to develop. I am excited to
+                take this journey great start and willing to break into the
+                field of tech.
+                <br />
+                <br />
+                I love spending my free time outdoors absailing and jumping off
+                cliffs!
+              </p>
+            </div>
 
-        <div class="row">
-          <div class="col-sm-6">
-            <p>
-              Hello, my name is Aarifah Amidu, a railway engineer transitioning
-              into the world of tech.
-              <br />
-              <br />
-              Self taught since October 2022.
-              <br />
-              <br />
-              Problem-solving is something that I love doing and tech is full of
-              it! Tech is ever changing, so I will be continuously increasing my
-              knowledge thus adding to what I already know.It gives me an
-              opportunity to work with new innovations and technology as the
-              world continues to develop. I am excited to take this journey
-              great start and willing to break into the field of tech.
-              <br />
-              <br />
-              I love spending my free time outdoors absailing and jumping off
-              cliffs!
-            </p>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="container">
-              <img src="images/outdoor.jpg" class="img-fluid height="420px"
-              width="420px" />
+            <div class="col-sm-6">
+              <div class="container">
+                <img src="images/outdoor.jpg" class="img-fluid height="420px"
+                width="420px" />
+              </div>
             </div>
           </div>
         </div>
+        <div class="vl"></div>
       </section>
+      <div class="vl"></div>
       <section id="section3">
         <div class="col-sm-12">
-          <h2 class="mt-2 second-heading" id="about">Skills</h2>
+          <h2 class="mt-4 second-heading" id="skills">Skills</h2>
           <div class="container">
-            <div class="skills">
-              <div class="skill">HTML 5</div>
-              <div class="skill">CSS 3</div>
-              <div class="skill">JavaScript</div>
-              <div class="skill">Python</div>
-            </div>
-            <div class="skills">
-              <div class="skill">MySQL</div>
-              <div class="skill">APIs</div>
-              <div class="skill">BootStrap</div>
-              <div class="skill">GitHub</div>
-            </div>
-            <div class="skills">
-              <div class="skill">Git</div>
-              <div class="skill">Figma</div>
-              <div class="skill">Invision Freehand</div>
-              <div class="skill">VS code</div>
-            </div>
-            <div class="skills">
-              <div class="skill">CodeSandBox</div>
-              <div class="skill">Hosting</div>
-              <div class="skill">SEO</div>
+            <div class="col-sm-12">
+              <div class="skills">
+                <div class="skill">HTML 5</div>
+                <div class="skill">CSS 3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+                <div class="skill">MySQL</div>
+              </div>
+              <div class="skills">
+                <div class="skill">VS code</div>
+                <div class="skill">BootStrap</div>
+                <div class="skill">GitHub</div>
+                <div class="skill">Git</div>
+                <div class="skill">Figma</div>
+              </div>
+              <div class="skills">
+                <div class="skill">Invision Freehand</div>
+                <div class="skill">APIs</div>
+                <div class="skill">CodeSandBox</div>
+                <div class="skill">Hosting</div>
+                <div class="skill">SEO</div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-12">
-          <h2 class="mt-2 second-heading" id="about">Certificates</h2>
+          <h2 class="mt-2 second-heading proof">Certificates</h2>
           <p>
             Here are some of the certificates I have earnt. There are more to
             come. Click on them!
           </p>
+          <div class="container">
+            <div class="row m-1">
+              <div class="col-md-3 papers">
+                <a
+                  href="https://www.shecodes.io/certificates/287c8f65d053cde8bba13e759fd6afcb"
+                  target="blank"
+                >
+                  <img
+                    src="/images/basic.png"
+                    class="img-fluid shadow-sm mb-3 certificate"
+                /></a>
+              </div>
+              <div class="col-md-3 papers">
+                <a
+                  href="https://www.shecodes.io/certificates/c9a30e83152a060fa4b957049df22341"
+                  target="blank"
+                >
+                  <img
+                    src="/images/plus.png"
+                    class="img-fluid shadow-sm mb-3 certificate"
+                  />
+                </a>
+              </div>
 
-          <div class="row m-1">
-            <div class="col-md-3 papers">
-              <a
-                href="https://www.shecodes.io/certificates/287c8f65d053cde8bba13e759fd6afcb"
-                target="blank"
-              >
+              <div class="col-md-3 papers">
                 <img
-                  src="/images/basic.png"
-                  class="img-fluid shadow-sm mb-3 certificate"
-              /></a>
-            </div>
-            <div class="col-md-3 papers">
-              <a
-                href="https://www.shecodes.io/certificates/c9a30e83152a060fa4b957049df22341"
-                target="blank"
-              >
-                <img
-                  src="/images/plus.png"
+                  src="/images/python.png"
                   class="img-fluid shadow-sm mb-3 certificate"
                 />
-              </a>
-            </div>
-
-            <div class="col-md-3 papers">
-              <img
-                src="/images/python.png"
-                class="img-fluid shadow-sm mb-3 certificate"
-              />
-            </div>
-            <div class="col-md-3 papers">
-              <img
-                src="/images/sql.png"
-                class="img-fluid shadow-sm mb-3 certificate"
-              />
+              </div>
+              <div class="col-md-3 papers">
+                <img
+                  src="/images/sql.png"
+                  class="img-fluid shadow-sm mb-3 certificate"
+                />
+              </div>
             </div>
           </div>
         </div>
+        <div class="vl"></div>
       </section>
+      <div class="vl"></div>
+      <section id="section4">
+        <h2 class="mt-2 second-heading quote">
+          “It's not a faith in technology. It's faith in people.”
+          <br />
+          Steve Jobs, Co-founder of Apple
+        </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-6"></div>
+          </div>
+        </div>
+        <div class="vl"></div>
+      </section>
+      <div class="vl"></div>
+      <section id="section5">
+        <h2 class="mt-2 second-heading" id="project">Projects</h2>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/yoga.png" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-6">
+              <h2 class="mb-3">Yoga app</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <div class="mt-5">
+                <a
+                  href="https://www.shecodes.io/workshops/shecodes-basics-b4639d18-7300-4b75-8c30-785fa2309d0d/projects/1163668"
+                  class="btn"
+                  >Launch Yoga App</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <h2 class="mb-3">Weather app</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <div class="mb-5 mt-5">
+                <a
+                  href="https://www.shecodes.io/workshops/shecodes-plus-743adb66-a56a-4578-8e56-5af7acb7dd50/projects/1270766"
+                  class="btn"
+                  >Launch Weather App</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="images/weather.png" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <img src="images/yogurt.png" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-6">
+              <h2 class="mb-3">Yogurt app</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <div class="mt-5">
+                <a href="#" class="btn">Launch Yogurt App</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vl"></div>
+      </section>
+      <div class="vl2"></div>
+      <footer>
+        <section id="section6">
+          <h2 class="mt-2 second-heading" id="contact">Contact Me</h2>
+          <div id="contact" class="mt-5">
+            <h2 class="text-center">📮 Contact me</h2>
+            <a href="mailto:aarifah.amidu@gmail.com" class="email-link">
+              aarifah.amidu@gmail.com
+            </a>
+          </div>
+          <div class="container">
+            <ul>
+              <li class="github">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </li>
+              <li class="linkedin">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li class="shecodes">
+                <a href="#"><img src="images/sc.jpeg" /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </footer>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
