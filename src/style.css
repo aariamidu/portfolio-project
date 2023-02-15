@@ -1,6 +1,6 @@
 :root {
   --main-colour: #f9f9f9;
-  --header-colour: #444444;
+  --header-colour: #9d9d9d;
   --main-font: "Roboto", sans-serif;
   --main-title: "Raleway", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -9,23 +9,9 @@ body {
   background-color: var(--main-colour);
   padding-top: 90px;
   padding-bottom: 90px;
-}
-#section1,
-#section6 {
-  background-color: var(--main-colour);
-  color: black;
-}
-section {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: rgb(196, 196, 196);
-  color: var(--main-colour);
-}
-.first-section {
-  padding-top: 0px;
 }
 
 h1 {
@@ -44,9 +30,9 @@ h2 {
   letter-spacing: 5px;
   font-family: var(--main-title);
   text-align: center;
-  padding: 30px 0px 30px 0px;
+  padding-bottom: 30px;
 }
-.proof {
+#proof {
   padding: 30px 0px 30px 0px;
 }
 .container-fluid {
@@ -68,27 +54,23 @@ h2 {
   text-decoration: underline;
 }
 
-.main-page {
-  font-size: 24px;
-  font-family: var(--main-font);
-}
 p {
   font-size: 20px;
   font-family: var(--main-font);
-  margin: 0px 0px 0px 30px;
 }
 .skills {
   display: flex;
   justify-content: space-evenly;
 }
 .skill {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid black;
   border-radius: 6px;
   padding: 10px;
-  margin: 0px 0px 30px 0px;
+  margin: 30px auto;
 }
 .skill:hover {
   text-align: center;
+
   transition: all 1s;
   transform: scale(1.2);
 }
@@ -98,45 +80,72 @@ p {
   text-transform: capitalize;
   border-radius: 0;
   box-shadow: var(--box-shadow);
-  margin: 60px;
+  margin: 30px auto;
 }
 .btn:hover {
   color: var(--header-colour);
 }
 
-.container {
-  max-width: 800px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 .papers {
+  display: block;
   padding: 0px 5px 5px 0px;
+
+  max-width: 100%;
 }
 .quote {
-  font-size: 50px;
-  padding-top: 100px;
-}
-.vl2 {
-  border-left: 5px solid rgb(196, 196, 196);
-  height: 100px;
-  position: absolute;
-  left: 50%;
-}
-div .vl {
-  border-left: 5px solid var(--main-colour);
-  height: 90px;
-  position: absolute;
-  left: 50%;
+  font-size: 20px;
 }
 
-.email-link {
+.link {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 16px;
   text-decoration: none;
 }
+.icons {
+  display: flex block;
+  margin: 0 auto;
+}
 
-.email-link:hover {
+.link:hover {
   text-decoration: underline;
+}
+.list {
+  max-width: 600px;
+}
+@media (max-width: 575px) {
+  h1,
+  .second-heading {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .quote {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    text-align: center;
+  }
+
+  body {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .hide-me {
+    display: none;
+  }
+  .link {
+    font-size: 18px;
+  }
+  .skill:hover {
+    transform: scale(1);
+  }
 }
